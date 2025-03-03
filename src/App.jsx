@@ -524,6 +524,23 @@ function App() {
           <p>4. Lastly, check the “terms of use box” and click <strong>[Submit]</strong>.</p>
           <img src="/img8.png" alt="" />
         </div>
+
+        <div className=" text-white rounded-lg p-4 py-6 flex items-center gap-4 max-w-md md:max-w-lg lg:max-w-xl shadow-lg border border-gray-700">
+        <img
+          src="/Binance_Logo.svg.png"
+          alt="Promo"
+          className="w-16 h-16 object-cover"
+        />
+        <div className="flex-1">
+          <p className="text-sm md:text-base font-medium">
+            Register Now - Get up to <span className="text-yellow-400">100 USDT</span> in
+            trading fee rebate (for verified users)
+          </p>
+          <button className="bg-yellow-500 text-black text-sm font-bold py-2 px-2 rounded mt-2 hover:bg-yellow-600">
+            Register Now
+          </button>
+        </div>
+      </div>
       </div>
 
       {/* FAQ section */}
